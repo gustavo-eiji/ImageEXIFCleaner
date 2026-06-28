@@ -6,6 +6,13 @@ It is designed to be simple for non-technical users: just run the program or dra
 
 ---
 
+## Download
+
+You can download the latest Windows executable from the **Releases** page.
+[Download latest release](https://github.com/<user>/<repo>/releases)
+
+---
+
 ## Features
 
 - Removes EXIF metadata from images
@@ -39,4 +46,4 @@ Original files are never modified.
 After building the `.exe`:
 
 - Drag image files onto `MetadataCleaner.exe`
-- Cleaned images will appear in:
+- A folder named clean_images containing the processed images will be created.
