@@ -9,8 +9,8 @@ It is designed to be simple for non-technical users: just run the program or dra
 ## Download
 
 You can download the latest Windows executable from the **Releases** page.
-[Download latest release]
-(https://github.com/gustavo-eiji/ImageEXIFCleaner/releases)
+
+[Download latest release](https://github.com/gustavo-eiji/ImageEXIFCleaner/releases)
 
 ---
 
