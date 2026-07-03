@@ -2,7 +2,11 @@
 
 A lightweight Python-based utility that removes image metadata (EXIF) from files while preserving the original image content.
 
-It is designed to be simple for non-technical users: just run the program or drag-and-drop images onto the executable.
+Includes a native desktop GUI built with Tkinter designed to be friendly for non-technical users.
+
+The project was developed as a learning exercise in Python software development, covering image processing, GUI development, file handling, and application packaging.
+
+
 
 ---
 
@@ -36,15 +40,20 @@ The program:
 2. Rebuilds it without metadata
 3. Saves a cleaned copy in a `clean_files/` folder
 
-Original files are never modified.
+Original files are never modified. This process removes embedded metadata such as EXIF information without altering the visible image.
 
 ---
 
 ## Usage
 
-### Option 1: Drag & Drop (recommended)
+### Remove Metadata
+1. Launch the application.
+2. Click Remove EXIF.
+3. Select one or more images.
+4. Cleaned copies are saved in a clean_files folder next to the originals.
 
-After building the `.exe`:
-
-- Drag image files onto `MetadataCleaner.exe`
-- A folder named clean_images containing the processed images will be created.
+### Read Metadata
+1. Launch the application.
+2. Click Read EXIF.
+3. Select one or more images.
+4. The detected metadata is displayed inside the application.
